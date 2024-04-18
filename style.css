@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("https://www.shutterstock.com/image-photo/set-paper-take-away-cups-600nw-1968819760.jpg");
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color:red;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #413f3f;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.menu-item:hover {
+    background-color: blanchedalmond;
+}
+
+.menu-item img {
+    max-width: 200px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #413f3f;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
